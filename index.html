@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 100%;
+            height: auto;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        #box~div{
+            width: 100%;
+            height: auto;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+           
+        }
+h3,p{
+    text-align: center;
+}
+        img{
+            width: 250px;
+            height: 300px;
+        }
+        #box>div{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+        #box~div>div{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+        button{
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+            background-color: cadetblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div><img src="https://lumiere-a.akamaihd.net/v1/images/p_drstrangeinthemultiverseofmadness_245_476cabb1.jpeg" alt=""><h3>Doctor Strange</h3>
+        <p>Rating - 4.5</p>
+    <button>Book Now</button></div>
+        <div><img src="https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg" alt=""><h3>Oppenheimer</h3>
+            <p>Rating - 4.9</p>
+        <button>Book Now</button></div>
+        <div><img src="https://resizing.flixster.com/DPxL1sG2snpcMbqGJc67YGTrjlM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2JmZTdkNDA5LTA5NzktNGE3OC04ODE2LTJlOTBkYTA3MDY2NS5qcGc=" alt=""><h3>Captain America</h3>
+            <p>Rating - 5.0</p>
+        <button>Book Now</button></div>
+    </div>
+    <div><div><img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7951929_p_v8_aa.jpg" alt=""><h3>3 Idiots</h3>
+        <p>Rating - 5.0</p>
+    <button>Book Now</button></div>
+    <div><img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p173317_p_v10_ac.jpg" alt=""><h3>Bhool Bhulaiyaa</h3>
+        <p>Rating - 4.8</p>
+    <button>Book Now</button></div>
+    <div><img src="https://m.media-amazon.com/images/M/MV5BNzgzYjZjYzMtNjcyYy00NWI3LTg1NDItOTMzMzdhMjhjNWExXkEyXkFqcGdeQXVyNjA3OTI5MjA@._V1_.jpg" alt=""><h3>Phir Hera Pheri</h3>
+        <p>Rating - 4.8</p>
+    <button>Book Now</button></div></div>
+</body>
+</html>
